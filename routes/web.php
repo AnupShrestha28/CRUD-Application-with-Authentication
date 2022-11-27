@@ -14,9 +14,8 @@ use App\Http\Controllers\AssignmentController;
 |
 */
 
-// Route::get('dashboard', [AssignmentController::class, 'index']);
 
-Route::get('dashboard', [AssignmentController::class, 'dashboard', 'index'])->middleware(['auth']);
+Route::get('dashboard', [AssignmentController::class, 'dashboard'])->middleware(['auth']);
 
 Route::get('add-dept', [AssignmentController::class, 'addDept']);
 
