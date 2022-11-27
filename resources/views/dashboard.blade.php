@@ -51,7 +51,7 @@
                         <thead>
                             <tr>
                                 <th>S.No</th>
-                                <th>Coordintor Name</th>
+                                <th>Coordinator Name</th>
                                 <th>Department Name</th>
                                 <th>Number of Students</th>
                                 <th>Phone</th>
